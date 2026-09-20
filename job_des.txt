@@ -1,0 +1,15 @@
+Develop and deploy AI and statistical algorithms to extract insights and drive actionable recommendations from complex datasets.
+Design rigorous testing frameworks to evaluate model performance, validate results, and iterate on models to improve accuracy and reliability.
+Perform R&D by exploring and optimizing algorithms, methodologies, and technologies to tackle complex problems and drive innovation. 
+Stay updated with the latest advancements in data science methodologies, tools, and technologies, and contribute to the team's knowledge base through sharing insights, attending conferences, and conducting research.
+Establishing and maintaining data governance policies, ensuring data integrity, security, and compliance with regulations.
+
+2+ Years of prior analytics and data science experience in driving projects involving AI and Advanced Analytics. 
+Strong expertise in Deep Learning frameworks, NLP/Text Analytics, SVM, LSTM, Transformers, Neural network.
+In-depth understanding and hands on experience in working with Large Language Models along with exposure in fine tuning open source models for variety of use case. 
+Strong exposure in prompt engineering, knowledge of vector database, langchain framework and data embeddings.
+Strong problem-solving skills and the ability to iterate and experiment to optimize AI model behavior.
+Proficiency in Python programming language for data analysis, machine learning, and web development.
+Hands-on experience with machine learning libraries such as NumPy, SciPy, and scikit-learn.
+Excellent problem-solving skills and attention to detail.
+Ability to communicate effectively with diverse clients/stakeholders. 
