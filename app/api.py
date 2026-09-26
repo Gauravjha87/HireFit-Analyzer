@@ -18,10 +18,20 @@ def home():
 
 @app.post("/analyze")
 async def analyze(
-        resume_file: UploadFile = File(...),
-        job_description: str = Form(...)
+    resume_file: UploadFile = File(...),
+    job_description: str = Form(...)
 
 ):
+
+    if resume_file.content_type != "application/pdf":
+                return {"error": "Invalid file type. Please upload a PDF file."}
+    if not job_description:
+                return {"error": "Job description is required."}
+    if not resume_file.filename.endswith(".pdf"):
+                return {"error": "Invalid file extension. Please upload a PDF file."}
+    if job_description.strip() == "":
+                return {"error": "Job description cannot be empty. Please provide a valid job description."}
+    
     #save the uploaded resume file to a tempory file
     with tempfile.NamedTemporaryFile(
         delete=False,
